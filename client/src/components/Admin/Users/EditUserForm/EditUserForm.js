@@ -78,7 +78,7 @@ function EditForm(props){
                         <Input 
                             prefix={<FontAwesomeIcon icon={faUser} />}
                             placeholder="Nombre"
-                            defaultValue={user.name}
+                            defaultValue={userData.name}
                             onChange={ e => setUserData({ ...userData, name: e.target.value})}
                         />
                     </Form.Item>
